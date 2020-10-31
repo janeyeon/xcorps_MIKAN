@@ -73,12 +73,13 @@ a {
 
 /* start of content */
 
+
 /* #navigationBar>a>#clickedBtn {
     color: #1A1A1A;
 } */
 
 #content {
-    background-color: #EFEDED; 
+    background-color: #EFEDED;
     display: block;
     width: 95%;
     margin-left: auto;
@@ -131,7 +132,6 @@ a {
     text-align: center;
 }
 
-
 #upload>div {
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
@@ -157,15 +157,15 @@ a {
     color: #1A1A1A;
 }
 
+
 /* Start CSS for upload-voice content  */
 
-#upload-voice{
+#upload-voice {
     display: block;
     position: relative;
-
 }
 
-#upload-voice > div {
+#upload-voice>div {
     border-color: #707070;
     border-style: solid;
     padding-left: 3%;
@@ -177,7 +177,13 @@ a {
     margin-bottom: 4%;
 }
 
-#bar4 {
+zero-md {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bar4 {
     background-color: #707070;
     height: 2px;
     width: 95%;
@@ -185,7 +191,10 @@ a {
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    display: block;
+    position: relative;
 }
+
 
 /* End CSS for upload-voice content  */
 
