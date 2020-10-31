@@ -78,8 +78,7 @@ a {
 } */
 
 #content {
-    /* background: linear-gradient(#fcdad9, #dfd1e8); */
-    background-color: #faf5e0;
+    background-color: #EFEDED; 
     display: block;
     width: 95%;
     margin-left: auto;
@@ -130,15 +129,13 @@ a {
 #upload {
     display: block;
     
+    
 }
 
-#upload * {
-    text-align: center;
-}
 
 #upload>div {
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #1A1A1A;
 }
 
@@ -161,9 +158,21 @@ a {
     color: #1A1A1A;
 }
 
+/* Start CSS for upload-voice content  */
 
+#upload-voice > #original #change-pitch #change-content{
+    display: block;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
+#upload-voice > #original {
+    border-color: #707070;
+    border-style: solid;
+}
 
+/* End CSS for upload-voice content  */
 
 
 /* Start CSS for output image*/
