@@ -128,8 +128,7 @@ a {
 
 #upload {
     display: block;
-    
-    
+    text-align: center;
 }
 
 
@@ -160,16 +159,32 @@ a {
 
 /* Start CSS for upload-voice content  */
 
-#upload-voice > #original #change-pitch #change-content{
+#upload-voice{
     display: block;
     position: relative;
-    padding-left: 3%;
-    padding-right: 3%;
+
 }
 
-#upload-voice > #original {
+#upload-voice > div {
     border-color: #707070;
     border-style: solid;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 4%;
+}
+
+#bar4 {
+    background-color: #707070;
+    height: 2px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* End CSS for upload-voice content  */
