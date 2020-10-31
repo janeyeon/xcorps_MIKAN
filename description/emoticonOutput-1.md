@@ -1,0 +1,1 @@
+emoticon output description
