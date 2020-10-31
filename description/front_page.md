@@ -1,5 +1,3 @@
-front page description
-
 # 1. MIKAN의 목표
 
 인공지능 의료 비서를 목표로 하여 개발을 시작하였습니다. 대학병원과 일반 의료 병원과의 점점 벌어지는 격차와 간호사들의 직장 내에서 발생하는 인권침해를 줄이기 위하여 다음과 같이 계획하였습니다. 1. 초기의 질병에 대한 간단한 문답을 통하여 각 경우에 적합한 병원을 추천하여 대학병원 집중화 현상을 줄이자. 2. 간호사들이 환자나 보호자로 부터 듣는 격한 감정적 표현을 대신하여 평서문의 음성으로 바꾸어 주는 장치를 개발하자. 3. 간호사의 익명화를 위하여 실시간으로 간호사들의 얼굴을 변환하여 보다 친근한 형태로 환자들에게 다가갈 수 있도록 하자. 
@@ -8,13 +6,13 @@ front page description
 
 # 2. 결과
 
-## a . Voice Conversion
+## 	a . Voice Conversion
 
-[Voice conversion](https://raw.githubusercontent.com/janeyeon/xcorps_MIKAN/master/description/emoticonOutput-1.md)
+​	[Voice conversion](https://raw.githubusercontent.com/janeyeon/xcorps_MIKAN/master/description/emoticonOutput-1.md)
 
-## b. Emoticon 
+## 	b. Emoticon 
 
-[Emoticon](https://raw.githubusercontent.com/janeyeon/xcorps_MIKAN/master/description/emoticonOutput-1.md)
+​	[Emoticon](https://raw.githubusercontent.com/janeyeon/xcorps_MIKAN/master/description/emoticonOutput-1.md)
 
 ## c. Homepage
 
