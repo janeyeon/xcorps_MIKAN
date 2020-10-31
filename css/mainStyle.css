@@ -1,0 +1,333 @@
+a {
+    text-decoration: none;
+}
+
+#upperSide {
+    overflow: hidden;
+    position: relative;
+}
+
+#firstPage>#logo {
+    color: #1A1A1A;
+    font-size: 36px;
+    line-height: 39px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#firstPage>#bar1 {
+    background-color: #707070;
+    height: 1px;
+    width: 157px;
+    margin: auto;
+}
+
+#firstPage>#teamName {
+    color: #707070;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+#bar2 {
+    background-color: #707070;
+    height: 2px;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#navigationBar {
+    display: block;
+    width: 96%;
+    height: 74;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#navigationBar>a {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 24%;
+}
+
+#navigationBar>a>div {
+    display: inline;
+    color: #909090;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+/* start of content */
+
+/* #navigationBar>a>#clickedBtn {
+    color: #1A1A1A;
+} */
+
+#content {
+    /* background: linear-gradient(#fcdad9, #dfd1e8); */
+    background-color: #faf5e0;
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+}
+
+#content>#upperContent {
+    display: block;
+}
+
+#upperContent>div {
+    text-align: center;
+    color: #1A1A1A;
+}
+
+#upperContent>#title {
+    padding-top: 60px;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+#upperContent>#date {
+    padding-top: 5px;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+#content>#underContent {
+    display: block;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #1A1A1A;
+    font-family: 'Noto Serif KR', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* Start of  output page */
+
+#bar3 {
+    background-color: #707070;
+    height: 2px;
+    width: 90%;
+}
+
+#upload {
+    display: block;
+    
+}
+
+#upload * {
+    text-align: center;
+}
+
+#upload>div {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #1A1A1A;
+}
+
+#upload>#tryText {
+    color: #707070;
+}
+
+#upload>#dataInfoText {
+    margin-bottom: 10px;
+}
+
+#upload>#uploadBox>* {
+    display: inline;
+    padding-bottom: 5px;
+}
+
+#uploadBox>button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    color: #1A1A1A;
+}
+
+
+
+
+
+
+/* Start CSS for output image*/
+
+#content>#result {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: auto;
+}
+
+#result {
+    text-align: center;
+}
+
+#result img {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    padding-top: auto;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#result>div {
+    display: inline-block;
+    position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+    #upload>#tryText {
+        font-size: 35px;
+    }
+    #upperContent>#title {
+        font-size: 60px;
+        font-weight: 900;
+    }
+    #upperContent>#date {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    #result img {
+        width: 600px;
+    }
+    #result>div {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    #navigationBar>a>div {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .discription {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    #content a {
+        font-weight: 400;
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #upload>#tryText {
+        font-size: 30px;
+    }
+    #upperContent>#title {
+        font-size: 47px;
+        font-weight: 900;
+    }
+    #upperContent>#date {
+        font-size: 19px;
+        font-weight: 500;
+    }
+    #result img {
+        width: 500px;
+    }
+    #result>div {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    #navigationBar>a>div {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .discription {
+        font-size: 27px;
+        font-weight: 400;
+    }
+    #content a {
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #upload>#tryText {
+        font-size: 27px;
+    }
+    #upperContent>#title {
+        font-size: 36px;
+        font-weight: 900;
+    }
+    #upperContent>#date {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    #result img {
+        width: 400px;
+    }
+    #result>div {
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    #navigationBar>a>div {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .discription {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    #content a {
+        font-weight: 400;
+        font-size: 27px;
+    }
+}
+
+#bar3 {
+    background-color: #707070;
+    height: 2px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#content>#try {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#content a {
+    color: #1A1A1A;
+    position: relative;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#content>#try>img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.discription {
+    color: #707070;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    text-align: center;
+}
