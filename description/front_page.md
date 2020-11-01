@@ -14,7 +14,7 @@
 
 ​	[Emoticon](https://raw.githubusercontent.com/janeyeon/xcorps_MIKAN/master/description/emoticonOutput-1.md)
 
-## c. Homepage
+## 	c. Homepage
 
 -  Frontend
 -  Backend
