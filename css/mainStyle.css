@@ -195,6 +195,20 @@ zero-md {
     position: relative;
 }
 
+audio {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-bottom: 1.5%;
+}
+
+
+/* #original-source>p {
+    display: inline;
+    position: relative;
+} */
+
 
 /* End CSS for upload-voice content  */
 
