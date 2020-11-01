@@ -8,7 +8,7 @@
 
 ## 3. 왜 SpeechSplit 인가?
 
-SpeechSplit 은 기존의 모델이 사용한 end-to-end 방식이 아닌 각각의 정보를 직접 분해하여 다시 재조합하는 과정을 거치기 때문에, 목소리에서 pitch 정보만 분리하여 내어 angry to neutral 을 구현할 수 있다고 생각하였다.(참고: [Unsupervised Speech Decomposition Via Triple Information Bottleneck](https://github.com/auspicious3000/SpeechSplit)) 인코더를 이용하여 melspectogram으로 변환한 음성정보에서 content 와 pitch, rythm, identity등으로 분해하고 이를 다시 재조립시키는 모델을 학습하였다. 그래서 기존의 voice conversion이 가지고 있는 고질적인 문제인 speaker-dependent 과 independent information를 해결하였다.
+SpeechSplit 은 기존의 모델이 사용한 end-to-end 방식이 아닌 각각의 정보를 직접 분해하여 다시 재조합하는 과정을 거치기 때문에, 목소리에서 pitch 정보만 분리하여 내어 angry to neutral 을 구현할 수 있다고 생각하였다.(참고: [Unsupervised Speech Decomposition Via Triple Information Bottleneck](https://github.com/auspicious3000/SpeechSplit)) 인코더를 이용하여 melspectogram으로 변환한 음성정보에서 content 와 pitch, rhythm, identity등으로 분해하고 이를 다시 재조립시키는 모델을 학습하였다. 그래서 기존의 voice conversion이 가지고 있는 고질적인 문제인 speaker-dependent 과 independent information를 해결하였다.
 
 ## 4. 어떻게 학습 시켰는가?
 
